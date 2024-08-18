@@ -2,6 +2,7 @@ import React from 'react'
 import GsapTimer from './timer/GsapTimer'
 import Scrollgsap from './scroll/Scrollgsap'
 import GsapClick from './onclick/GsapClick'
+import GsapHover from './hover/GsapHover'
 
 const GsapAnimation = () => {
   return (
@@ -9,6 +10,7 @@ const GsapAnimation = () => {
     <GsapTimer/>
     <Scrollgsap/>
     <GsapClick/>
+    <GsapHover/>
     </span>
   )
 }
