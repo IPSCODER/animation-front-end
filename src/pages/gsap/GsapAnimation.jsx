@@ -2,6 +2,7 @@ import React from 'react'
 import GsapTimer from './timer/GsapTimer'
 import GsapScroll from './scroll/GsapScroll'
 import TextReveal from './text-reveal/TextReval'
+import ScrollAnimation from './scroll/ScrollAnimation'
 
 const GsapAnimation = () => {
   return (
@@ -9,6 +10,7 @@ const GsapAnimation = () => {
     <GsapTimer/>
     <GsapScroll/>
     <TextReveal/>
+    <ScrollAnimation/>
     </>
   )
 }
